@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.nav {  
+    width: 100vw;
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+    color: #8a8a8a;
+    display: table;
+    clear: both;
+    
+    
+}
+
+.navTitle {
+    height: 10vh;
+    float: left;
+    display: table;
+}
+
+.title{
+    font-family: 'Creepster', cursive;
+    vertical-align: middle;
+    font-size: 60px;
+    padding: 30px 20px 20px 20px;
+    color: chartreuse;
+}
+
+.title:hover{
+    color: darkred;
+}
+
+.navItems {
+    font-family: 'Creepster', cursive;
+    float: right;
+    height: 40px;
+    display: table;
+    padding: 10px;
+    padding-left: 20vw;
+    padding-top: 40px;
+    font-size: 4vh;
+
+}
+
+.navItem:visited{
+    color: chartreuse;
+}
+
+.navItem {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navItem:hover {
+    background-color: rgb(122,117,138);
+    cursor: pointer;
+    color: darkred;
+}
+
+.navItem:active{
+    color: cyan;
+    background-color: blueviolet;
+}
+.navItem:focus{
+    color: cyan;
+    background-color: blueviolet;
+}
+
+
+
+body {
+    background: url("./images/audiowaves.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bioHeader {
+    font-family: 'Vast Shadow', cursive;
+    font-size: 30px;
+    padding-top: 10px;
+    width: 60vw;
+    height: 15vh;
+    color: chartreuse;
+    text-align: center;
+    position: absolute;
+    right: 25%;
+    padding-left: 20px;
+    background: linear-gradient(to right, 
+    #444444 20%, #3a3a3a 20% 40%, #262626 40% 60%, #080808 60% 80%, #080808 80%);
+    border-radius: 50%;
+}
+.bioHeader:hover{
+    color: magenta;
+} 
+
+.bioContent{
+    width: 960px;
+    margin-top: 15vh;
+    margin-left: 15vw;
+    min-height: 100vh;
+    display: table;
+    position: relative;
+}
+
+.image {
+
+    margin: 20px;
+    display: table;
+    width: 400px;
+    height: 400px;
+    background: url("./images/family.jpg");
+    background-position: center;
+    background-size: cover;
+    float: left;
+    border: solid 2px cyan;
+
+}
+
+.image:hover{
+    background: url("./images/Paul.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bioText {
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Fredericka the Great', cursive;
+    line-height: 50px;
+    padding-top: 30px;
+
+}
+
+.bioText:hover{
+    background: linear-gradient(to left, red 28px, darkred 77%, black);
+    color: chartreuse;
+    line-height: 50px;
+    padding-top: 30px;
+    font-size: 2rem;
+    font-family: 'Creepster', cursive;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    position:sticky;
+    text-align: center;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: chartreuse;
+    padding-top: 30px;
+    left:0px;
+    bottom:0px;
+    height:10vh;
+    width:100%;
+    background: linear-gradient(to right, 
+    white 20%, grey 20% 40%, black 60%, grey 60% 80%, white 80%);
+} 
+
+@media screen and (min-width: 980px) {
+    
+    .image {
+
+        margin: 20px;
+        display: table;
+        width: 200px;
+        height: 200px;
+        background: url("./images/family.jpg");
+        background-position: center;
+        background-size: cover;
+        float: left;
+        border: solid 2px cyan;
+    
+    }
+    .bioText {
+
+        width: 700px;  
+        font-size: 1.2rem;
+        color: white;
+        font-family: 'Fredericka the Great', cursive;
+        line-height: 50px;
+        padding-top: 30px;
+    
+    }
+    footer{
+        width: 100vw;
+    }
+
+    @media screen and (max-width: 780px) {
+        .title{
+            font-family: 'Creepster', cursive;
+            vertical-align: middle;
+            font-size: 4px;
+            padding: 0;
+            color: chartreuse;
+        }
+        .navTitle{
+            height: 4vh;
+        }
+        .bioHeader{
+            font-size: 4px;
+        }
+        body{
+            width: 600px;
+        }
+        .bioContent{
+            width: 600px;
+        }
+        .image {
+    
+            margin: 20px;
+            display: table;
+            width: 80vw;
+            height: 200px;
+            background: url("./images/family.jpg");
+            background-position: center;
+            background-size: cover;
+            float: left;
+            border: solid 2px cyan;
+        
+        }
+        .bioText {
+    
+            width: 80vw;  
+            font-size: 1.2rem;
+            color: white;
+            font-family: 'Fredericka the Great', cursive;
+            line-height: 50px;
+            padding-top: 30px;
+        
+        }
+        footer{
+            width: 100vw;
+        }
+}
+
+}
