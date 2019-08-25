@@ -191,6 +191,7 @@ footer {
     footer{
         width: 100vw;
     }
+}
 
     @media screen and (max-width: 780px) {
         .title{
@@ -199,6 +200,9 @@ footer {
             font-size: 4px;
             padding: 0;
             color: chartreuse;
+        }
+        .nav{
+            display: hidden;
         }
         .navTitle{
             height: 4vh;
@@ -238,6 +242,28 @@ footer {
         footer{
             width: 100vw;
         }
-}
+    }
 
-}
+    @media screen and (max-width: 640px) {
+
+        .bioContent{
+            width: 500px;
+        }
+        footer{
+            width: 100vw;
+        }
+
+        .navItems{
+            padding: 5px;
+        }
+        
+        .title{
+            width: 100vw;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .bioHeader{
+            font-size: 20px;
+        }
+    }
