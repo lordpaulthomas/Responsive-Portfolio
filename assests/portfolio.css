@@ -20,6 +20,7 @@
         color: red;
     } 
 
+
 .portfolioContent{
     width: 960px;
     display: table;
@@ -124,3 +125,11 @@
     color: rgb(233, 229, 233);
 }
 
+ 
+
+@media screen and (max-width: 640px) {
+    .portfolioContent{
+        min-height: 100vh;
+    }
+    
+    }
