@@ -44,7 +44,7 @@
     transform: translate(-50%,-50%);
     height: 180px;
     width: 180px;
-    background: url("./images/liveshotdark.JPG");
+    background: url("./images/Screen\ Shot\ 2019-09-08\ at\ 9.16.02\ PM.png");
     background-position: center;
     background-size: cover;
     color: white;
@@ -55,13 +55,13 @@
 .myBand:hover{
     color: greenyellow;
     font-size: 80px;
-    background: url("./images/livdshotmoon.JPG");
+    background: url("./images/Screen\ Shot\ 2019-09-08\ at\ 9.16.02\ PM.png");
     background-size: cover;
     background-position: center;
 }
 
 .myBand:visited{
-    color: rgb(233, 229, 233);
+    color: white;
 }
 
 .myTravels {
@@ -127,9 +127,3 @@
 
  
 
-@media screen and (max-width: 640px) {
-    .portfolioContent{
-        min-height: 100vh;
-    }
-    
-    }
